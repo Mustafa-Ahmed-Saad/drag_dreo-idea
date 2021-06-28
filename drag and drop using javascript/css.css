@@ -1,0 +1,46 @@
+.container {
+   width: 900px;
+   margin: auto;
+}
+/* start shuffling catds */
+.cards {
+   margin-top: 50px;
+   position: relative;
+   min-height: 300px;
+   z-index: 1; /* لازم اخلي الزد انكس ب واحد علشان لما اوصل لخر كارت اقدر ادوس علي الكارت اللي كان اول واحد ورجع في الاخر فلازم الطبقة دي تكون زد انككس 1 او 2 المهم تكون عالية لانها هي اللي بتحتوي كل الكروت */
+   /* يبقي لازم الزد انكس يكون عالي هنا علشان دا الديق اللي بيحتوي كل الكروت و الكروت الزد انكس بتاعتها بتقل فلو مدتش هنا زد انكس عالي فوق الواحد او واحد هتيجي لما دوس علي الكارت هيرجع ورا خالص فمش هتعرف تدوس علية تاني */
+   background-color: burlywood;
+   padding-top: 100px;
+}
+.cards .card {
+   width: 150px;
+   height: 150px;
+   border: 5px solid #333;
+   position: absolute;
+   left: 50%;
+   margin-left: -75px;
+}
+.cards .card-one {
+   background-color: #34495e;
+}
+.cards .card-two {
+   background-color: #8e44ad;
+}
+.cards .card-three {
+   background-color: #c0392b;
+}
+.cards .card-four {
+   background-color: #2980b9;
+}
+.cards .card-five {
+   background-color: #d35400;
+}
+.cards .card-six {
+   background-color: #27ae60;
+}
+.cards .card-seven {
+   background-color: #f39c12;
+}
+.cards .card-eight {
+   background-color: #16a085;
+}
